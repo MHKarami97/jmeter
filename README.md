@@ -1,4 +1,4 @@
-#Jmeter
+# Jmeter
 
 my custom jmeter  
 
@@ -6,8 +6,9 @@ first click `startAgent.bat` in directory : `C:\jmeter\ServerAgent`
 then click `jmeter.bat` in directory : `C:\jmeter\bin`
 
 
-## Info
-# Summary Report
+# Info
+
+## Summary Report
 The summary report creates a table row for each differently named request in your test. This is similar to the Aggregate Report , except that it uses less memory.  
 
 -   `Label` : The label of the sample. If "Include group name in label?" is selected, then the name of the thread group is added as a prefix. This allows identical labels from different thread groups to be collated separately if required.
@@ -22,7 +23,7 @@ The summary report creates a table row for each differently named request in you
 -   `Sent KB/sec` : The throughput measured in Kilobytes per second
 -   `Avg. Bytes` : average size of the sample response in bytes.
 
-# Aggregate Report
+## Aggregate Report
 The aggregate report creates a table row for each differently named request in your test. For each request, it totals the response information and provides request count, min, max, average, error rate, approximate throughput (request/second) and Kilobytes per second throughput. Once the test is done, the throughput is the actual through for the duration of the entire test.
 
 -   `Label` : The label of the sample. If "Include group name in label?" is selected, then the name of the thread group is added as a prefix. This allows identical labels from different thread groups to be collated separately if required.
@@ -39,7 +40,7 @@ The aggregate report creates a table row for each differently named request in y
 -   `Received KB/sec` : The throughput measured in received Kilobytes per second
 -   `Sent KB/sec` : The throughput measured in sent Kilobytes per second
 
-# View Results in Table
+## View Results in Table
 he View Results Tree shows a tree of all sample responses, allowing you to view the response for any sample. In addition to showing the response, you can see the time it took to get this response, and some response codes. Note that the Request panel only shows the headers added by JMeter. It does not show any headers (such as Host) that may be added by the HTTP protocol implementation.
 
 -   `Latency` : The number of milliseconds that elapsed between when JMeter sent the request and when an initial response was received
