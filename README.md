@@ -5,6 +5,15 @@ my custom jmeter
 first click `startAgent.bat` in directory : `C:\jmeter\ServerAgent`  
 then click `jmeter.bat` in directory : `C:\jmeter\bin`
 
+# Run Not GUI mode
+
+```
+jmeter -n -t API.jmx -l result.csv
+```
+
+# Add to environment
+
+add `C:\jmeter\bin` to `Path`
 
 # Info
 
@@ -45,3 +54,7 @@ he View Results Tree shows a tree of all sample responses, allowing you to view 
 
 -   `Latency` : The number of milliseconds that elapsed between when JMeter sent the request and when an initial response was received
 -   `Sample Time` : The number of milliseconds that the server took to fully serve the request (response + latency)
+
+
+# Note
+I change `sigar-amd64-winnt.dll` in `C:\jmeter\ServerAgent\lib` because of bug on Sigar library. [More Info](https://github.com/hyperic/sigar/issues/141)
