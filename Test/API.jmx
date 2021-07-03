@@ -19,8 +19,8 @@
             <stringProp name="Argument.value">localhost</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="portNummber" elementType="Argument">
-            <stringProp name="Argument.name">portNummber</stringProp>
+          <elementProp name="portNumber" elementType="Argument">
+            <stringProp name="Argument.name">portNumber</stringProp>
             <stringProp name="Argument.value">80</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -75,7 +75,7 @@
         </HTTPSamplerProxy>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Thread Group (custom)" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Thread Group (custom)" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="1436088231">
             <stringProp name="1537214">2000</stringProp>
@@ -219,7 +219,7 @@ Here&apos;s the solution - Throughput Shaping Timer! Now you can just set schedu
         </HTTPSamplerProxy>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Thread Group (50_concurrent_User)" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="Thread Group (50_concurrent_User)" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-1900540136">
             <stringProp name="1691">50</stringProp>
